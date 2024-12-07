@@ -7,7 +7,7 @@ document.getElementById("quantity-form").addEventListener("submit", function (e)
     return;
   }
 
-  const uniqueLink = `https://seusite.com/step2.html?n=${quantity}`;
+  const uniqueLink = `https://rifa2.vercel.app/?n=${quantity}`;
   document.getElementById("link-output").innerHTML = `
     <p>Compartilhe este link com o comprador:</p>
     <a href="${uniqueLink}" target="_blank">${uniqueLink}</a>
